@@ -1,15 +1,17 @@
-a > #jb-logo
+#jb-logo
 {
-    border:  transparent; 
     border-radius: 50%;
 }
 
-#header
+a:link
 {
-    background-color: #52d3d8;
+    color: white; 
 }
 
-.nav-item
+
+body  
 {
-    color: #200e3a;
+    color: white; 
 }
+
+
