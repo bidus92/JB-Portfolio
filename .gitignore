@@ -1,0 +1,6 @@
+#files 
+*.sln
+*.user
+*.json
+*json.command
+*.code-workspace
