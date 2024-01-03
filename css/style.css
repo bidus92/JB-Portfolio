@@ -1,17 +1,40 @@
 #jb-logo
 {
     border-radius: 50%;
+    width: 40px;
+    height: 40px;    
+}
+
+
+#profile-pic
+{
+    border: solid;
+    border-radius: 25%;
+}
+
+a:visited
+{
+    color: white; 
+    text-decoration: none;
 }
 
 a:link
 {
-    color: white; 
+    color: white;
+    text-decoration: none;
 }
+
+
 
 
 body  
 {
     color: white; 
+}
+
+.caro-width
+{
+   width: 450px; 
 }
 
 
