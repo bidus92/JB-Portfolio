@@ -5,6 +5,14 @@
     height: 40px;    
 }
 
+.dropdown-container
+{
+    z-index: 1000;
+}
+.dropdown-menu 
+{
+    background-color: black;
+}
 
 #profile-pic
 {
