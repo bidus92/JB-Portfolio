@@ -1,8 +1,54 @@
-<ContactInfo>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body
+    {
+      background-color: #3887be;
+      color: white;
+    }
+
+    #address
+    {
+      font-weight: bolder;
+      font-size: 30px; 
+    }
+
+    #flex-container
+    {
+      display: flex; 
+      justify-content: flex-end;
+      align-items: center;
+      gap: 30px;
+      font-size: 30px;
+    }
+
+    h1
+    {
+      font-size: 40px;
+    }
+
+  </style>
+</head>
+<body>
+  <contact-info>
   <h1>Contact Information</h1>
+    <div id="flex-container">
+        
+        <a href="../../../index.html">Home</a>
+        <a href="../resume.html">Resume</a>
+    </div>
   <hr/>
-    <ul>
-      <li><h2>Email:</h2> jbwebdev1992@gmail.com</li>
-    </ul>
+
+      <h2>Email Address: 
+        <p id="address">jbwebdev1992@gmail.com</p> 
+          </h2>
   <hr/>
-</ContactInfo>
+<contact-info>
+</body>
+</html>
+
+
